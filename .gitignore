@@ -1,0 +1,11 @@
+# Compiled Java class files
+*.class
+
+# Build folders
+out/
+bin/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
