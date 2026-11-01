@@ -17,8 +17,13 @@ This repository contains my weekly Java practicals for COS 201. Each week's work
 cos-201/
 ├── README.md
 ├── .gitignore
-└── week01/
-    └── FirstProgram.java
+├── week01/
+│   └── FirstProgram.java
+└── week02/
+    ├── HelloWorld.java
+    ├── StudentProfile.java
+    ├── PrintExample.java
+    └── ErrorExample.java
 ```
 
 ## Requirements
@@ -77,3 +82,80 @@ I will practise programming every week.
 - Printing an empty line to separate parts of the output
 - Compiling with `javac` and running with `java`
 - Uploading my work to GitHub
+
+---
+
+## Week 2: Development Environment and First Java Program
+
+### Objective
+
+To install and use a Java development environment, then write, compile and run simple Java programs and upload the source code to GitHub.
+
+### Tools Used
+
+- Java Development Kit (JDK)
+- Visual Studio Code
+- Git
+- GitHub Desktop
+- GitHub
+
+### Files
+
+| File | Description |
+|---|---|
+| `week02/HelloWorld.java` | Main practical. Prints a greeting and two lines about the course. |
+| `week02/StudentProfile.java` | Personalised program. Prints my student profile: name, matric number, programme and course details. |
+| `week02/PrintExample.java` | Practice on `print()` versus `println()`. My prediction of the output is in the comment at the top of the file. |
+| `week02/ErrorExample.java` | "Find and fix the error" exercise. The original line had no semicolon, so the compiler reported `';' expected`. This file is the fixed version. |
+
+### How to Run
+
+1. Go into the Week 2 folder: `cd week02`
+2. Compile the program: `javac HelloWorld.java`
+3. Run it: `java HelloWorld`
+
+The other three programs are compiled and run the same way, for example `javac StudentProfile.java` then `java StudentProfile`.
+
+### Output
+
+`HelloWorld`
+
+```
+Hello, World!
+Welcome to COS 201.
+I am learning Java programming.
+```
+
+`StudentProfile`
+
+```
+==================================
+          STUDENT PROFILE
+==================================
+NAME: Ige Enoch Moyosooreoluwa
+MATRIC NO: 25/16540
+PROGRAMME: Cyber Security
+COURSE: COS 201
+COURSE TITLE: Computer Programming I
+WEEK: 2
+TOPIC: Development Environment and Java
+GOAL: To build a strong Java foundation for secure software.
+==================================
+```
+
+`PrintExample` (this matched my prediction)
+
+```
+COS 201
+Java
+```
+
+`ErrorExample` (after adding the missing semicolon)
+
+```
+Learning Java
+```
+
+### Learning Outcome
+
+I can now set up a Java project in Visual Studio Code, compile and run it from the terminal, and push it to GitHub. I learned that `print()` leaves the cursor on the same line while `println()` ends the line, and that reading the compiler's error message (such as `';' expected`) shows me which line to fix.
